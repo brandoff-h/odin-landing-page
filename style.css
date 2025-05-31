@@ -11,6 +11,10 @@ body {
     
 }
 
+.horizontal {
+    display: flex;
+}
+
 
 .header {
     height: 50px;
@@ -78,4 +82,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 20px 0;
+}
+
+.placeholder {
+    background-color: grey;
+    height: 200px;
+    width: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 auto;
 }
